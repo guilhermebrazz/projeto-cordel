@@ -17,6 +17,10 @@
     margin: auto;
     max-width: 100%;
 }
+main {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
 h1 {
     padding-top: 50px;
     color: white;
@@ -62,11 +66,17 @@ h2 {
 .fundo {
     width: 600px;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.507);
+    
 }
 
 .main3 {
     background: black url(pacote-d012/imagens/background002.jpg) center right no-repeat fixed;
     background-size: cover; 
     position: relative;
+}
+
+article > h2 {
+    background-color: rgba(0, 0, 0, 0.507);
+    margin-left: 30px;
+    width: 620px;
 }
